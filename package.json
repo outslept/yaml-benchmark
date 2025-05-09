@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"js-yaml": "^4.1.0",
+		"mitata": "^1.0.34",
+		"yaml": "^2.7.1"
+	},
+	"devDependencies": {
+		"@sxzz/eslint-config": "^7.0.1",
+		"@types/js-yaml": "^4.0.9",
+		"@types/node": "^22.15.17",
+		"typescript": "^5.8.3"
+	}
+}
