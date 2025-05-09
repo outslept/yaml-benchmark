@@ -1,0 +1,1 @@
+{"name":"My Application","version":"1.0.2","active":true,"ports":[8080,8081],"settings":{"debug":false,"log_level":"info"}}

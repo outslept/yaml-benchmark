@@ -1,0 +1,24 @@
+fieldA: &a1
+  detail: This object is shared
+  id: JOXu26r
+  value: 922
+fieldB:
+  nested: *a1
+  another: data
+fieldC:
+  - *a1
+  - *a1
+  - unique: true
+listA: &a2
+  - 9m43v
+  - 35
+  - false
+listB:
+  - 1
+  - 2
+  - 9m43v
+  - 35
+  - false
+  - 3
+mapWithSharedList:
+  data: *a2
