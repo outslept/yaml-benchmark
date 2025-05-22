@@ -1,13 +1,22 @@
 {
+	"type": "module",
+	"scripts": {
+		"bench:modules": "0x bench-modules.js",
+		"bench:lock": "0x bench-lock.js",
+		"bench:workspace": "0x bench-workspace.js",
+		"bench": "bun run bench:modules && bun run bench:lock && bun run bench:workspace"
+	},
 	"dependencies": {
 		"js-yaml": "^4.1.0",
 		"mitata": "^1.0.34",
+		"tinybench": "^4.0.1",
 		"yaml": "^2.7.1"
 	},
 	"devDependencies": {
 		"@sxzz/eslint-config": "^7.0.1",
 		"@types/js-yaml": "^4.0.9",
 		"@types/node": "^22.15.17",
+		"tsx": "^4.19.4",
 		"typescript": "^5.8.3"
 	}
 }
