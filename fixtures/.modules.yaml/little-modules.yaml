@@ -1,0 +1,765 @@
+hoistPattern:
+  - '*'
+hoistedDependencies:
+  '@babel/helper-validator-identifier@7.27.1':
+    '@babel/helper-validator-identifier': private
+  '@es-joy/jsdoccomment@0.50.0':
+    '@es-joy/jsdoccomment': private
+  '@eslint-community/eslint-plugin-eslint-comments@4.5.0(eslint@9.26.0)':
+    '@eslint-community/eslint-plugin-eslint-comments': private
+  '@eslint-community/eslint-utils@4.7.0(eslint@9.26.0)':
+    '@eslint-community/eslint-utils': private
+  '@eslint-community/regexpp@4.12.1':
+    '@eslint-community/regexpp': private
+  '@eslint/compat@1.2.9(eslint@9.26.0)':
+    '@eslint/compat': private
+  '@eslint/config-array@0.20.0':
+    '@eslint/config-array': private
+  '@eslint/config-helpers@0.2.2':
+    '@eslint/config-helpers': private
+  '@eslint/core@0.10.0':
+    '@eslint/core': private
+  '@eslint/eslintrc@3.3.1':
+    '@eslint/eslintrc': private
+  '@eslint/js@9.26.0':
+    '@eslint/js': private
+  '@eslint/markdown@6.4.0':
+    '@eslint/markdown': private
+  '@eslint/object-schema@2.1.6':
+    '@eslint/object-schema': private
+  '@eslint/plugin-kit@0.2.8':
+    '@eslint/plugin-kit': private
+  '@humanfs/core@0.19.1':
+    '@humanfs/core': private
+  '@humanfs/node@0.16.6':
+    '@humanfs/node': private
+  '@humanwhocodes/module-importer@1.0.1':
+    '@humanwhocodes/module-importer': private
+  '@humanwhocodes/retry@0.4.3':
+    '@humanwhocodes/retry': private
+  '@modelcontextprotocol/sdk@1.11.1':
+    '@modelcontextprotocol/sdk': private
+  '@nodelib/fs.scandir@2.1.5':
+    '@nodelib/fs.scandir': private
+  '@nodelib/fs.stat@2.0.5':
+    '@nodelib/fs.stat': private
+  '@nodelib/fs.walk@1.2.8':
+    '@nodelib/fs.walk': private
+  '@pkgr/core@0.2.4':
+    '@pkgr/core': private
+  '@types/debug@4.1.12':
+    '@types/debug': private
+  '@types/eslint@9.6.1':
+    '@types/eslint': private
+  '@types/estree@1.0.7':
+    '@types/estree': private
+  '@types/json-schema@7.0.15':
+    '@types/json-schema': private
+  '@types/mdast@4.0.4':
+    '@types/mdast': private
+  '@types/ms@2.1.0':
+    '@types/ms': private
+  '@types/unist@3.0.3':
+    '@types/unist': private
+  '@typescript-eslint/eslint-plugin@8.32.0(@typescript-eslint/parser@8.32.0(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)':
+    '@typescript-eslint/eslint-plugin': private
+  '@typescript-eslint/parser@8.32.0(eslint@9.26.0)(typescript@5.8.3)':
+    '@typescript-eslint/parser': private
+  '@typescript-eslint/scope-manager@8.32.0':
+    '@typescript-eslint/scope-manager': private
+  '@typescript-eslint/type-utils@8.32.0(eslint@9.26.0)(typescript@5.8.3)':
+    '@typescript-eslint/type-utils': private
+  '@typescript-eslint/types@8.32.0':
+    '@typescript-eslint/types': private
+  '@typescript-eslint/typescript-estree@8.32.0(typescript@5.8.3)':
+    '@typescript-eslint/typescript-estree': private
+  '@typescript-eslint/utils@8.32.0(eslint@9.26.0)(typescript@5.8.3)':
+    '@typescript-eslint/utils': private
+  '@typescript-eslint/visitor-keys@8.32.0':
+    '@typescript-eslint/visitor-keys': private
+  '@unrs/resolver-binding-darwin-arm64@1.7.2':
+    '@unrs/resolver-binding-darwin-arm64': private
+  '@unrs/resolver-binding-darwin-x64@1.7.2':
+    '@unrs/resolver-binding-darwin-x64': private
+  '@unrs/resolver-binding-freebsd-x64@1.7.2':
+    '@unrs/resolver-binding-freebsd-x64': private
+  '@unrs/resolver-binding-linux-arm-gnueabihf@1.7.2':
+    '@unrs/resolver-binding-linux-arm-gnueabihf': private
+  '@unrs/resolver-binding-linux-arm-musleabihf@1.7.2':
+    '@unrs/resolver-binding-linux-arm-musleabihf': private
+  '@unrs/resolver-binding-linux-arm64-gnu@1.7.2':
+    '@unrs/resolver-binding-linux-arm64-gnu': private
+  '@unrs/resolver-binding-linux-arm64-musl@1.7.2':
+    '@unrs/resolver-binding-linux-arm64-musl': private
+  '@unrs/resolver-binding-linux-ppc64-gnu@1.7.2':
+    '@unrs/resolver-binding-linux-ppc64-gnu': private
+  '@unrs/resolver-binding-linux-riscv64-gnu@1.7.2':
+    '@unrs/resolver-binding-linux-riscv64-gnu': private
+  '@unrs/resolver-binding-linux-riscv64-musl@1.7.2':
+    '@unrs/resolver-binding-linux-riscv64-musl': private
+  '@unrs/resolver-binding-linux-s390x-gnu@1.7.2':
+    '@unrs/resolver-binding-linux-s390x-gnu': private
+  '@unrs/resolver-binding-linux-x64-gnu@1.7.2':
+    '@unrs/resolver-binding-linux-x64-gnu': private
+  '@unrs/resolver-binding-linux-x64-musl@1.7.2':
+    '@unrs/resolver-binding-linux-x64-musl': private
+  '@unrs/resolver-binding-wasm32-wasi@1.7.2':
+    '@unrs/resolver-binding-wasm32-wasi': private
+  '@unrs/resolver-binding-win32-arm64-msvc@1.7.2':
+    '@unrs/resolver-binding-win32-arm64-msvc': private
+  '@unrs/resolver-binding-win32-ia32-msvc@1.7.2':
+    '@unrs/resolver-binding-win32-ia32-msvc': private
+  '@unrs/resolver-binding-win32-x64-msvc@1.7.2':
+    '@unrs/resolver-binding-win32-x64-msvc': private
+  accepts@2.0.0:
+    accepts: private
+  acorn-jsx@5.3.2(acorn@8.14.1):
+    acorn-jsx: private
+  acorn@8.14.1:
+    acorn: private
+  ajv@6.12.6:
+    ajv: private
+  ansi-styles@4.3.0:
+    ansi-styles: private
+  are-docs-informative@0.0.2:
+    are-docs-informative: private
+  argparse@2.0.1:
+    argparse: private
+  balanced-match@1.0.2:
+    balanced-match: private
+  body-parser@2.2.0:
+    body-parser: private
+  boolbase@1.0.0:
+    boolbase: private
+  brace-expansion@2.0.1:
+    brace-expansion: private
+  braces@3.0.3:
+    braces: private
+  browserslist@4.24.5:
+    browserslist: private
+  builtin-modules@5.0.0:
+    builtin-modules: private
+  bytes@3.1.2:
+    bytes: private
+  call-bind-apply-helpers@1.0.2:
+    call-bind-apply-helpers: private
+  call-bound@1.0.4:
+    call-bound: private
+  callsites@3.1.0:
+    callsites: private
+  caniuse-lite@1.0.30001717:
+    caniuse-lite: private
+  ccount@2.0.1:
+    ccount: private
+  chalk@4.1.2:
+    chalk: private
+  character-entities@2.0.2:
+    character-entities: private
+  ci-info@4.2.0:
+    ci-info: private
+  clean-regexp@1.0.0:
+    clean-regexp: private
+  color-convert@2.0.1:
+    color-convert: private
+  color-name@1.1.4:
+    color-name: private
+  comment-parser@1.4.1:
+    comment-parser: private
+  concat-map@0.0.1:
+    concat-map: private
+  confbox@0.2.2:
+    confbox: private
+  content-disposition@1.0.0:
+    content-disposition: private
+  content-type@1.0.5:
+    content-type: private
+  cookie-signature@1.2.2:
+    cookie-signature: private
+  cookie@0.7.2:
+    cookie: private
+  core-js-compat@3.42.0:
+    core-js-compat: private
+  cors@2.8.5:
+    cors: private
+  cross-spawn@7.0.6:
+    cross-spawn: private
+  cssesc@3.0.0:
+    cssesc: private
+  debug@4.4.0:
+    debug: private
+  decode-named-character-reference@1.1.0:
+    decode-named-character-reference: private
+  deep-is@0.1.4:
+    deep-is: private
+  depd@2.0.0:
+    depd: private
+  dequal@2.0.3:
+    dequal: private
+  devlop@1.1.0:
+    devlop: private
+  dunder-proto@1.0.1:
+    dunder-proto: private
+  ee-first@1.1.1:
+    ee-first: private
+  electron-to-chromium@1.5.151:
+    electron-to-chromium: private
+  encodeurl@2.0.0:
+    encodeurl: private
+  enhanced-resolve@5.18.1:
+    enhanced-resolve: private
+  es-define-property@1.0.1:
+    es-define-property: private
+  es-errors@1.3.0:
+    es-errors: private
+  es-object-atoms@1.1.1:
+    es-object-atoms: private
+  escalade@3.2.0:
+    escalade: private
+  escape-html@1.0.3:
+    escape-html: private
+  escape-string-regexp@4.0.0:
+    escape-string-regexp: private
+  eslint-compat-utils@0.6.5(eslint@9.26.0):
+    eslint-compat-utils: private
+  eslint-config-flat-gitignore@2.1.0(eslint@9.26.0):
+    eslint-config-flat-gitignore: private
+  eslint-config-prettier@10.1.5(eslint@9.26.0):
+    eslint-config-prettier: private
+  eslint-flat-config-utils@2.0.1:
+    eslint-flat-config-utils: private
+  eslint-import-resolver-node@0.3.9:
+    eslint-import-resolver-node: private
+  eslint-json-compat-utils@0.2.1(eslint@9.26.0)(jsonc-eslint-parser@2.4.0):
+    eslint-json-compat-utils: private
+  eslint-plugin-antfu@3.1.1(eslint@9.26.0):
+    eslint-plugin-antfu: private
+  eslint-plugin-command@3.2.0(eslint@9.26.0):
+    eslint-plugin-command: private
+  eslint-plugin-de-morgan@1.2.1(eslint@9.26.0):
+    eslint-plugin-de-morgan: private
+  eslint-plugin-es-x@7.8.0(eslint@9.26.0):
+    eslint-plugin-es-x: private
+  eslint-plugin-import-x@4.11.0(eslint@9.26.0)(typescript@5.8.3):
+    eslint-plugin-import-x: private
+  eslint-plugin-jsdoc@50.6.11(eslint@9.26.0):
+    eslint-plugin-jsdoc: private
+  eslint-plugin-jsonc@2.20.0(eslint@9.26.0):
+    eslint-plugin-jsonc: private
+  eslint-plugin-n@17.18.0(eslint@9.26.0):
+    eslint-plugin-n: private
+  eslint-plugin-perfectionist@4.12.3(eslint@9.26.0)(typescript@5.8.3):
+    eslint-plugin-perfectionist: private
+  eslint-plugin-pnpm@0.3.1(eslint@9.26.0):
+    eslint-plugin-pnpm: private
+  eslint-plugin-prettier@5.4.0(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3):
+    eslint-plugin-prettier: private
+  eslint-plugin-regexp@2.7.0(eslint@9.26.0):
+    eslint-plugin-regexp: private
+  eslint-plugin-sxzz@0.3.0(eslint@9.26.0):
+    eslint-plugin-sxzz: private
+  eslint-plugin-unicorn@59.0.1(eslint@9.26.0):
+    eslint-plugin-unicorn: private
+  eslint-plugin-unused-imports@4.1.4(@typescript-eslint/eslint-plugin@8.32.0(@typescript-eslint/parser@8.32.0(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0):
+    eslint-plugin-unused-imports: private
+  eslint-plugin-vue@10.1.0(eslint@9.26.0)(vue-eslint-parser@10.1.3(eslint@9.26.0)):
+    eslint-plugin-vue: private
+  eslint-plugin-yml@1.18.0(eslint@9.26.0):
+    eslint-plugin-yml: private
+  eslint-scope@8.3.0:
+    eslint-scope: private
+  eslint-visitor-keys@4.2.0:
+    eslint-visitor-keys: private
+  eslint@9.26.0:
+    eslint: private
+  espree@10.3.0:
+    espree: private
+  esquery@1.6.0:
+    esquery: private
+  esrecurse@4.3.0:
+    esrecurse: private
+  estraverse@5.3.0:
+    estraverse: private
+  esutils@2.0.3:
+    esutils: private
+  etag@1.8.1:
+    etag: private
+  eventsource-parser@3.0.1:
+    eventsource-parser: private
+  eventsource@3.0.6:
+    eventsource: private
+  express-rate-limit@7.5.0(express@5.1.0):
+    express-rate-limit: private
+  express@5.1.0:
+    express: private
+  exsolve@1.0.5:
+    exsolve: private
+  fast-deep-equal@3.1.3:
+    fast-deep-equal: private
+  fast-diff@1.3.0:
+    fast-diff: private
+  fast-glob@3.3.3:
+    fast-glob: private
+  fast-json-stable-stringify@2.1.0:
+    fast-json-stable-stringify: private
+  fast-levenshtein@2.0.6:
+    fast-levenshtein: private
+  fastq@1.19.1:
+    fastq: private
+  fault@2.0.1:
+    fault: private
+  fdir@6.4.4(picomatch@4.0.2):
+    fdir: private
+  file-entry-cache@8.0.0:
+    file-entry-cache: private
+  fill-range@7.1.1:
+    fill-range: private
+  finalhandler@2.1.0:
+    finalhandler: private
+  find-up-simple@1.0.1:
+    find-up-simple: private
+  find-up@5.0.0:
+    find-up: private
+  flat-cache@4.0.1:
+    flat-cache: private
+  flatted@3.3.3:
+    flatted: private
+  format@0.2.2:
+    format: private
+  forwarded@0.2.0:
+    forwarded: private
+  fresh@2.0.0:
+    fresh: private
+  function-bind@1.1.2:
+    function-bind: private
+  get-intrinsic@1.3.0:
+    get-intrinsic: private
+  get-proto@1.0.1:
+    get-proto: private
+  get-tsconfig@4.10.0:
+    get-tsconfig: private
+  glob-parent@6.0.2:
+    glob-parent: private
+  globals@16.1.0:
+    globals: private
+  gopd@1.2.0:
+    gopd: private
+  graceful-fs@4.2.11:
+    graceful-fs: private
+  graphemer@1.4.0:
+    graphemer: private
+  has-flag@4.0.0:
+    has-flag: private
+  has-symbols@1.1.0:
+    has-symbols: private
+  hasown@2.0.2:
+    hasown: private
+  http-errors@2.0.0:
+    http-errors: private
+  iconv-lite@0.6.3:
+    iconv-lite: private
+  ignore@5.3.2:
+    ignore: private
+  import-fresh@3.3.1:
+    import-fresh: private
+  imurmurhash@0.1.4:
+    imurmurhash: private
+  indent-string@5.0.0:
+    indent-string: private
+  inherits@2.0.4:
+    inherits: private
+  ipaddr.js@1.9.1:
+    ipaddr.js: private
+  is-builtin-module@5.0.0:
+    is-builtin-module: private
+  is-core-module@2.16.1:
+    is-core-module: private
+  is-extglob@2.1.1:
+    is-extglob: private
+  is-glob@4.0.3:
+    is-glob: private
+  is-number@7.0.0:
+    is-number: private
+  is-promise@4.0.0:
+    is-promise: private
+  isexe@2.0.0:
+    isexe: private
+  jsdoc-type-pratt-parser@4.1.0:
+    jsdoc-type-pratt-parser: private
+  jsesc@3.1.0:
+    jsesc: private
+  json-buffer@3.0.1:
+    json-buffer: private
+  json-schema-traverse@0.4.1:
+    json-schema-traverse: private
+  json-stable-stringify-without-jsonify@1.0.1:
+    json-stable-stringify-without-jsonify: private
+  jsonc-eslint-parser@2.4.0:
+    jsonc-eslint-parser: private
+  keyv@4.5.4:
+    keyv: private
+  levn@0.4.1:
+    levn: private
+  local-pkg@1.1.1:
+    local-pkg: private
+  locate-path@6.0.0:
+    locate-path: private
+  lodash.merge@4.6.2:
+    lodash.merge: private
+  lodash@4.17.21:
+    lodash: private
+  longest-streak@3.1.0:
+    longest-streak: private
+  markdown-table@3.0.4:
+    markdown-table: private
+  math-intrinsics@1.1.0:
+    math-intrinsics: private
+  mdast-util-find-and-replace@3.0.2:
+    mdast-util-find-and-replace: private
+  mdast-util-from-markdown@2.0.2:
+    mdast-util-from-markdown: private
+  mdast-util-frontmatter@2.0.1:
+    mdast-util-frontmatter: private
+  mdast-util-gfm-autolink-literal@2.0.1:
+    mdast-util-gfm-autolink-literal: private
+  mdast-util-gfm-footnote@2.1.0:
+    mdast-util-gfm-footnote: private
+  mdast-util-gfm-strikethrough@2.0.0:
+    mdast-util-gfm-strikethrough: private
+  mdast-util-gfm-table@2.0.0:
+    mdast-util-gfm-table: private
+  mdast-util-gfm-task-list-item@2.0.0:
+    mdast-util-gfm-task-list-item: private
+  mdast-util-gfm@3.1.0:
+    mdast-util-gfm: private
+  mdast-util-phrasing@4.1.0:
+    mdast-util-phrasing: private
+  mdast-util-to-markdown@2.1.2:
+    mdast-util-to-markdown: private
+  mdast-util-to-string@4.0.0:
+    mdast-util-to-string: private
+  media-typer@1.1.0:
+    media-typer: private
+  merge-descriptors@2.0.0:
+    merge-descriptors: private
+  merge2@1.4.1:
+    merge2: private
+  micromark-core-commonmark@2.0.3:
+    micromark-core-commonmark: private
+  micromark-extension-frontmatter@2.0.0:
+    micromark-extension-frontmatter: private
+  micromark-extension-gfm-autolink-literal@2.1.0:
+    micromark-extension-gfm-autolink-literal: private
+  micromark-extension-gfm-footnote@2.1.0:
+    micromark-extension-gfm-footnote: private
+  micromark-extension-gfm-strikethrough@2.1.0:
+    micromark-extension-gfm-strikethrough: private
+  micromark-extension-gfm-table@2.1.1:
+    micromark-extension-gfm-table: private
+  micromark-extension-gfm-tagfilter@2.0.0:
+    micromark-extension-gfm-tagfilter: private
+  micromark-extension-gfm-task-list-item@2.1.0:
+    micromark-extension-gfm-task-list-item: private
+  micromark-extension-gfm@3.0.0:
+    micromark-extension-gfm: private
+  micromark-factory-destination@2.0.1:
+    micromark-factory-destination: private
+  micromark-factory-label@2.0.1:
+    micromark-factory-label: private
+  micromark-factory-space@2.0.1:
+    micromark-factory-space: private
+  micromark-factory-title@2.0.1:
+    micromark-factory-title: private
+  micromark-factory-whitespace@2.0.1:
+    micromark-factory-whitespace: private
+  micromark-util-character@2.1.1:
+    micromark-util-character: private
+  micromark-util-chunked@2.0.1:
+    micromark-util-chunked: private
+  micromark-util-classify-character@2.0.1:
+    micromark-util-classify-character: private
+  micromark-util-combine-extensions@2.0.1:
+    micromark-util-combine-extensions: private
+  micromark-util-decode-numeric-character-reference@2.0.2:
+    micromark-util-decode-numeric-character-reference: private
+  micromark-util-decode-string@2.0.1:
+    micromark-util-decode-string: private
+  micromark-util-encode@2.0.1:
+    micromark-util-encode: private
+  micromark-util-html-tag-name@2.0.1:
+    micromark-util-html-tag-name: private
+  micromark-util-normalize-identifier@2.0.1:
+    micromark-util-normalize-identifier: private
+  micromark-util-resolve-all@2.0.1:
+    micromark-util-resolve-all: private
+  micromark-util-sanitize-uri@2.0.1:
+    micromark-util-sanitize-uri: private
+  micromark-util-subtokenize@2.1.0:
+    micromark-util-subtokenize: private
+  micromark-util-symbol@2.0.1:
+    micromark-util-symbol: private
+  micromark-util-types@2.0.2:
+    micromark-util-types: private
+  micromark@4.0.2:
+    micromark: private
+  micromatch@4.0.8:
+    micromatch: private
+  mime-db@1.54.0:
+    mime-db: private
+  mime-types@3.0.1:
+    mime-types: private
+  min-indent@1.0.1:
+    min-indent: private
+  minimatch@10.0.1:
+    minimatch: private
+  mlly@1.7.4:
+    mlly: private
+  ms@2.1.3:
+    ms: private
+  napi-postinstall@0.2.3:
+    napi-postinstall: private
+  natural-compare@1.4.0:
+    natural-compare: private
+  natural-orderby@5.0.0:
+    natural-orderby: private
+  negotiator@1.0.0:
+    negotiator: private
+  node-releases@2.0.19:
+    node-releases: private
+  nth-check@2.1.1:
+    nth-check: private
+  object-assign@4.1.1:
+    object-assign: private
+  object-inspect@1.13.4:
+    object-inspect: private
+  on-finished@2.4.1:
+    on-finished: private
+  once@1.4.0:
+    once: private
+  optionator@0.9.4:
+    optionator: private
+  p-limit@3.1.0:
+    p-limit: private
+  p-locate@5.0.0:
+    p-locate: private
+  parent-module@1.0.1:
+    parent-module: private
+  parse-imports-exports@0.2.4:
+    parse-imports-exports: private
+  parse-statements@1.0.11:
+    parse-statements: private
+  parseurl@1.3.3:
+    parseurl: private
+  path-exists@4.0.0:
+    path-exists: private
+  path-key@3.1.1:
+    path-key: private
+  path-parse@1.0.7:
+    path-parse: private
+  path-to-regexp@8.2.0:
+    path-to-regexp: private
+  pathe@2.0.3:
+    pathe: private
+  picocolors@1.1.1:
+    picocolors: private
+  picomatch@4.0.2:
+    picomatch: private
+  pkce-challenge@5.0.0:
+    pkce-challenge: private
+  pkg-types@2.1.0:
+    pkg-types: private
+  pluralize@8.0.0:
+    pluralize: private
+  pnpm-workspace-yaml@0.3.1:
+    pnpm-workspace-yaml: private
+  postcss-selector-parser@6.1.2:
+    postcss-selector-parser: private
+  prelude-ls@1.2.1:
+    prelude-ls: private
+  prettier-linter-helpers@1.0.0:
+    prettier-linter-helpers: private
+  prettier@3.5.3:
+    prettier: private
+  proxy-addr@2.0.7:
+    proxy-addr: private
+  punycode@2.3.1:
+    punycode: private
+  qs@6.14.0:
+    qs: private
+  quansync@0.2.10:
+    quansync: private
+  queue-microtask@1.2.3:
+    queue-microtask: private
+  range-parser@1.2.1:
+    range-parser: private
+  raw-body@3.0.0:
+    raw-body: private
+  refa@0.12.1:
+    refa: private
+  regexp-ast-analysis@0.7.1:
+    regexp-ast-analysis: private
+  regexp-tree@0.1.27:
+    regexp-tree: private
+  regjsparser@0.12.0:
+    regjsparser: private
+  resolve-from@4.0.0:
+    resolve-from: private
+  resolve-pkg-maps@1.0.0:
+    resolve-pkg-maps: private
+  resolve@1.22.10:
+    resolve: private
+  reusify@1.1.0:
+    reusify: private
+  router@2.2.0:
+    router: private
+  run-parallel@1.2.0:
+    run-parallel: private
+  safe-buffer@5.2.1:
+    safe-buffer: private
+  safer-buffer@2.1.2:
+    safer-buffer: private
+  scslre@0.3.0:
+    scslre: private
+  semver@7.7.1:
+    semver: private
+  send@1.2.0:
+    send: private
+  serve-static@2.2.0:
+    serve-static: private
+  setprototypeof@1.2.0:
+    setprototypeof: private
+  shebang-command@2.0.0:
+    shebang-command: private
+  shebang-regex@3.0.0:
+    shebang-regex: private
+  side-channel-list@1.0.0:
+    side-channel-list: private
+  side-channel-map@1.0.1:
+    side-channel-map: private
+  side-channel-weakmap@1.0.2:
+    side-channel-weakmap: private
+  side-channel@1.1.0:
+    side-channel: private
+  spdx-exceptions@2.5.0:
+    spdx-exceptions: private
+  spdx-expression-parse@4.0.0:
+    spdx-expression-parse: private
+  spdx-license-ids@3.0.21:
+    spdx-license-ids: private
+  stable-hash@0.0.5:
+    stable-hash: private
+  statuses@2.0.1:
+    statuses: private
+  strip-indent@4.0.0:
+    strip-indent: private
+  strip-json-comments@3.1.1:
+    strip-json-comments: private
+  supports-color@7.2.0:
+    supports-color: private
+  supports-preserve-symlinks-flag@1.0.0:
+    supports-preserve-symlinks-flag: private
+  synckit@0.10.3:
+    synckit: private
+  tapable@2.2.1:
+    tapable: private
+  tinyglobby@0.2.13:
+    tinyglobby: private
+  to-regex-range@5.0.1:
+    to-regex-range: private
+  toidentifier@1.0.1:
+    toidentifier: private
+  ts-api-utils@2.1.0(typescript@5.8.3):
+    ts-api-utils: private
+  tslib@2.8.1:
+    tslib: private
+  type-check@0.4.0:
+    type-check: private
+  type-is@2.0.1:
+    type-is: private
+  typescript-eslint@8.32.0(eslint@9.26.0)(typescript@5.8.3):
+    typescript-eslint: private
+  ufo@1.6.1:
+    ufo: private
+  undici-types@6.21.0:
+    undici-types: private
+  unist-util-is@6.0.0:
+    unist-util-is: private
+  unist-util-stringify-position@4.0.0:
+    unist-util-stringify-position: private
+  unist-util-visit-parents@6.0.1:
+    unist-util-visit-parents: private
+  unist-util-visit@5.0.0:
+    unist-util-visit: private
+  unpipe@1.0.0:
+    unpipe: private
+  unrs-resolver@1.7.2:
+    unrs-resolver: private
+  update-browserslist-db@1.1.3(browserslist@4.24.5):
+    update-browserslist-db: private
+  uri-js@4.4.1:
+    uri-js: private
+  util-deprecate@1.0.2:
+    util-deprecate: private
+  vary@1.1.2:
+    vary: private
+  vue-eslint-parser@10.1.3(eslint@9.26.0):
+    vue-eslint-parser: private
+  which@2.0.2:
+    which: private
+  word-wrap@1.2.5:
+    word-wrap: private
+  wrappy@1.0.2:
+    wrappy: private
+  xml-name-validator@4.0.0:
+    xml-name-validator: private
+  yaml-eslint-parser@1.3.0:
+    yaml-eslint-parser: private
+  yocto-queue@0.1.0:
+    yocto-queue: private
+  zod-to-json-schema@3.24.5(zod@3.24.4):
+    zod-to-json-schema: private
+  zod@3.24.4:
+    zod: private
+  zwitch@2.0.4:
+    zwitch: private
+ignoredBuilds:
+  - unrs-resolver
+included:
+  dependencies: true
+  devDependencies: true
+  optionalDependencies: true
+injectedDeps: {}
+layoutVersion: 5
+nodeLinker: isolated
+packageManager: pnpm@10.10.0
+pendingBuilds: []
+prunedAt: Thu, 22 May 2025 02:35:01 GMT
+publicHoistPattern: []
+registries:
+  '@jsr': https://npm.jsr.io/
+  '@outslept': https://npm.pkg.github.com/
+  default: https://registry.npmjs.org/
+skipped:
+  - '@emnapi/core@1.4.3'
+  - '@emnapi/runtime@1.4.3'
+  - '@emnapi/wasi-threads@1.0.2'
+  - '@napi-rs/wasm-runtime@0.2.9'
+  - '@tybys/wasm-util@0.9.0'
+  - '@unrs/resolver-binding-darwin-arm64@1.7.2'
+  - '@unrs/resolver-binding-darwin-x64@1.7.2'
+  - '@unrs/resolver-binding-freebsd-x64@1.7.2'
+  - '@unrs/resolver-binding-linux-arm-gnueabihf@1.7.2'
+  - '@unrs/resolver-binding-linux-arm-musleabihf@1.7.2'
+  - '@unrs/resolver-binding-linux-arm64-gnu@1.7.2'
+  - '@unrs/resolver-binding-linux-arm64-musl@1.7.2'
+  - '@unrs/resolver-binding-linux-ppc64-gnu@1.7.2'
+  - '@unrs/resolver-binding-linux-riscv64-gnu@1.7.2'
+  - '@unrs/resolver-binding-linux-riscv64-musl@1.7.2'
+  - '@unrs/resolver-binding-linux-s390x-gnu@1.7.2'
+  - '@unrs/resolver-binding-linux-x64-gnu@1.7.2'
+  - '@unrs/resolver-binding-linux-x64-musl@1.7.2'
+  - '@unrs/resolver-binding-wasm32-wasi@1.7.2'
+  - '@unrs/resolver-binding-win32-arm64-msvc@1.7.2'
+  - '@unrs/resolver-binding-win32-ia32-msvc@1.7.2'
+storeDir: E:\.devtools\pnpm\global\store\v10
+virtualStoreDir: E:\Work\yaml-performance-benchmark\node_modules\.pnpm
+virtualStoreDirMaxLength: 60
